@@ -4,7 +4,7 @@ const botones = document.querySelectorAll(".btn");
 botones.forEach(boton => {
     boton.addEventListener("click", () => {
         
-        conts botonApretado = boton.textContent;
+        const botonApretado = boton.textContent;
 
         if(boton.id === "c") {
             pantalla.textContent = "0";
