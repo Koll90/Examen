@@ -21,7 +21,7 @@ botones.forEach(boton => {
         if(boton.id === "igual") {
             try {
             pantalla.textContent = eval(pantalla.textContent);
-            } else {
+            } catch {
                 pantalla.textContent = "Error!";
             }
             return;
